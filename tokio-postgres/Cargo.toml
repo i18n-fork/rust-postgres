@@ -1,11 +1,11 @@
 [package]
-name = "tokio-postgres"
+name = "tokio-postgres-fork"
 version = "0.7.13"
 authors = ["Steven Fackler <sfackler@gmail.com>"]
 edition = "2018"
 license = "MIT OR Apache-2.0"
 description = "A native, asynchronous PostgreSQL client"
-repository = "https://github.com/sfackler/rust-postgres"
+repository = "https://github.com/i18n-fork/rust-postgres/tree/dev"
 readme = "../README.md"
 keywords = ["database", "postgres", "postgresql", "sql", "async"]
 categories = ["database"]
@@ -73,11 +73,11 @@ futures-executor = "0.3"
 criterion = "0.5"
 env_logger = "0.11"
 tokio = { version = "1.0", features = [
-    "macros",
-    "net",
-    "rt",
-    "rt-multi-thread",
-    "time",
+  "macros",
+  "net",
+  "rt",
+  "rt-multi-thread",
+  "time",
 ] }
 
 bit-vec-06 = { version = "0.6", package = "bit-vec" }
